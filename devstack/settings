@@ -12,7 +12,7 @@ CEPH_PLUGIN_DIR=$(readlink -f $(dirname ${BASH_SOURCE[0]}))
 #       anyways.
 
 TEMPEST_STORAGE_PROTOCOL=ceph
-CEPH_LOOPBACK_DISK_SIZE=8G
+CEPH_LOOPBACK_DISK_SIZE=400G
 
 # Source plugin's lib/ceph
 source $CEPH_PLUGIN_DIR/lib/ceph
